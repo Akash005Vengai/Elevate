@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function(){
         localStorage.setItem("name",n);
         }
     }
-    //dgfh
     if (localStorage.getItem(localStorage.name)==null){
         const date1 = new Date();
         let st=date1.getFullYear();
