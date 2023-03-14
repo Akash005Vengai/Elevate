@@ -1,0 +1,100 @@
+*{
+  user-select: none;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+  }
+    i{
+    width: 30%;
+    height: 100%;
+    color: #e5e817;
+    font-size:30px;
+  }
+  #top{
+    width:100%;
+    height:7%;
+    display:flex;
+    font-size:30px;
+    justify-content:space-between;
+  }
+  #toplef{
+    display:flex;
+    width:10%;
+    margin-right:2%;
+  }
+  #top span{
+    margin-left:10%;
+  }
+  #fir{
+    width:48%;
+    margin-left:0.5%;
+    float:left;
+    height:75%;
+    margin-top:8%;
+    text-align:center;
+    font-weight:bold;
+  }
+  #sec{
+    width:48%;
+    margin-left:0.5%;
+    float:left;
+    height:75%;
+    margin-top:8%;
+  }
+  .num{
+    width: 8%;
+      border-bottom: 2px solid pink;
+      margin: 12% 24% 0% 0%;
+      float: left;
+      text-align: center;
+      font-size: 30px;
+  }
+  #number{
+        padding: 14px 0px 28px 0px;
+      font-size: 52px;
+  }
+  #per{
+        font-size: 41px;
+  }
+  #result{
+    margin-top: 34%;
+    font-size: 40px;
+  }
+  p{
+    text-align:right;
+    font-size:20px;
+    margin-right: 5%;
+  }
+  #main{
+    width:100%;
+    height:100%;
+    background-color:black;
+  }
+  #p2{
+    font-size:53px;
+    color:white;
+    text-align:center;
+  }
+  img{
+      width: 100%;
+      margin-left: 24%;
+    }
+  #wrongAns{
+      width: 100%;
+      height: 100%;
+    color:white;
+      background-color: #00000061;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 57px;
+  }
+  a{
+    text-decoration: none;
+  }

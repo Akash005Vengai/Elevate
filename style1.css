@@ -1,0 +1,189 @@
+*{
+  user-select: none;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+  }
+  #wrongAns{
+      width: 100%;
+      height: 100%;
+      color:white;
+      background-color: #00000061;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 57px;
+  }
+  i{
+    width: 30%;
+    height: 100%;
+    color: #e5e817;
+    font-size:30px;
+  }
+  #top{
+    width:100%;
+    height:7%;
+    display:flex;
+    font-size:30px;
+    justify-content:space-between;
+  }
+  #toplef{
+    display:flex;
+    width:10%;
+    margin-right:2%;
+  }
+  #top span{
+    margin-left:10%;
+  }
+  #round{
+    float:right;
+    font-size:20px;
+    margin-right:3%;
+    margin-top:0%;
+  }
+  #output{
+    text-align:center;
+    font-size:22px;
+  }
+  #last{
+    display:flex;
+    width:60%;
+    font-size:40px;
+    justify-content:space-around;
+    float:left;
+    margin-top:31%;
+  }
+  #answer{
+    width:38%;
+    height:55%;
+    float:left;
+  }
+  #mainans{
+    width: 50%;
+      height: 59%;
+      border-radius: 50%;
+      background-color: inherit;
+      margin: 30% auto;
+    z-index: 1;
+    display:grid;
+    justify-content:center;
+    align-content:center;
+  }
+  #mainans span{
+    z-index:1;
+    font-size:80px;
+  }
+  #rotate1{
+    display:none;
+  }
+  #rotate2{
+    display:none;
+  }
+  .k{
+    position:absolute;
+    background-color:#eaa72a;
+    width:3%;
+    height:35px;
+    top:83%;
+    display:none;
+  }
+  .one{
+    display:none;
+    position: absolute;
+    background-color: #eaa72a;
+    width:4%;
+    height: 50px;
+    border-radius: 10px;
+    left: 89%;
+    border:1px solid;
+    }
+  .five,.ten{
+    display:none;
+    position: absolute;
+    background-color: #eaa72a;
+    width: 4%;
+    height: 50px;
+    border-radius: 10px;
+    left: 74%;
+    border:1px solid;
+  }
+  .fifty,.twenty{
+    display:none;
+    position: absolute;
+    background-color: #eaa72a;
+    width: 4%;
+    height: 50px;
+    border-radius: 10px;
+    left: 59%;
+    border:1px solid;
+  }
+  .hun,.twohun{
+    display:none;
+    position: absolute;
+    background-color: #eaa72a;
+    width: 4%;
+    height: 50px;
+    border-radius: 10px;
+    left: 44%;
+    border:1px solid;
+  }
+  #one1,#five1,#ten1,#twenty1,#fifty1,#hun1,#twohun1{
+    top:74%;
+  }
+  #one2,#five2,#ten2,#twenty2,#fifty2,#hun2,#twohun2{
+    top:72%;
+  }
+  #one3,#five3,#ten3,#twenty3,#fifty3,#hun3,#twohun3{
+    top:70%;
+  }
+  #one4,#five4,#ten4,#twenty4,#fifty4,#hun4,#twohun4{
+    top:68%;
+  }
+  #one5,#five5,#ten5,#twenty5,#fifty5,#hun5,#twohun5{
+    top:66%;
+  }
+  #one6,#five6,#ten6,#twenty6,#fifty6,#hun6,#twohun6{
+    top:64%;
+  }
+  #one7,#five7,#ten7,#twenty7,#fifty7,#hun7,#twohun7{
+    top:62%;
+  }
+  #one8,#five8,#ten8,#twenty8,#fifty8,#hun8,#twohun8{
+    top:60%;
+  }
+  #one9,#five9,#ten9,#twenty9,#fifty9,#hun9,#twohun9{
+    top:58%;
+  }
+  #one10,#five10,#ten10,#twenty10,#fifty10,#hun10,#twohun10{
+    top:56%;
+  }
+    img{
+      width: 43%;
+      margin-left: 24%;
+    }
+  #last span{
+      border: 1px solid;
+      width: 8%;
+      text-align: center;
+      border-radius: 14px;
+      background-color: aqua;
+  }
+  #main{
+    width:100%;
+    height:100%;
+    background-color:black;
+  }
+  p{
+    font-size:53px;
+    color:white;
+    text-align:center;
+  }
+  a{
+    text-decoration: none;
+  }
